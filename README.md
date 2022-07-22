@@ -77,7 +77,7 @@ RPC Listening on 127.0.0.1:8545
   
 Leave that running in a terminal, and open up another terminal.  
   
-INSTALL/CONFIG WEB3.JS
+### INSTALL/CONFIG WEB3.JS
 
 We depend on web3.js to be able to interact with Ganache.
 
@@ -134,3 +134,15 @@ IamDeveloper@SoftwareDevelopUbuntu2004
 $
 ```
   
+### Create A Simple Test Project To Interact With Ganache  
+  
+#### CREATE A SOFTWARE PROJECT DIRECTORY  
+These are just suggested, not required to do exactly like this below.  
+
+DO:  
+```
+mkdir -p MySoftwareProjects/blockchain/rust/rust-binance-smart-chain-projects/my-first-project/my-first-client
+```  
+```
+cd MySoftwareProjects/blockchain/rust/rust-binance-smart-chain-projects/my-first-project/my-first-client
+```
