@@ -77,6 +77,60 @@ RPC Listening on 127.0.0.1:8545
   
 Leave that running in a terminal, and open up another terminal.  
   
+INSTALL/CONFIG WEB3.JS
+
+We depend on web3.js to be able to interact with Ganache.
+
+npm search <term> (example: web3)  
   
+DO:  
+```
+npm search web3
+```
+  
+OUTPUT:  
+```
+IamDeveloper@SoftwareDevelopUbuntu2004
+~
+$ npm search web3
+NAME                      | DESCRIPTION          | AUTHOR          | DATE       | VERSION  | KEYWORDS
+web3                      | Ethereum JavaScript… | =nazarhussain86… | 2022-06-21 | 1.7.4    | Ethereum JavaScript
+```
+  
+DO:  
+```
+npm install -g web3
+```
+  
+OUTPUT:  
+```
+IamDeveloper@SoftwareDevelopUbuntu2004
+~
+$ npm install -g web3
+npm WARN deprecated mkdirp-promise@5.0.1: This package is broken and no longer maintained. 'mkdirp' itself supports promises now, please switch to that.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated multicodec@1.0.4: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated multibase@0.6.1: This module has been superseded by the multiformats module
+npm WARN deprecated multibase@0.7.0: This module has been superseded by the multiformats module
+npm WARN deprecated multicodec@0.5.7: This module has been superseded by the multiformats module
+npm WARN deprecated cids@0.7.5: This module has been superseded by the multiformats module
 
+added 368 packages, and audited 369 packages in 21s
 
+64 packages are looking for funding
+  run `npm fund` for details
+
+3 moderate severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+IamDeveloper@SoftwareDevelopUbuntu2004
+~
+$
+```
+  
