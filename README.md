@@ -146,3 +146,10 @@ mkdir -p MySoftwareProjects/blockchain/rust/rust-binance-smart-chain-projects/my
 ```
 cd MySoftwareProjects/blockchain/rust/rust-binance-smart-chain-projects/my-first-project/my-first-client
 ```
+  
+Since we are doing a simple Javascript client (not an npm project), one way to have the ```require('web3');``` to works is to just create a link to ```node_modules```.  
+DO:  
+```
+ln -s ~/.nvm/versions/node/v18.6.0/lib/node_modules/ node_modules  
+```
+  
